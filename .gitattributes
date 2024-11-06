@@ -1,3 +1,8 @@
 *.dart linguist-language=Dart
-android/app/src/main/cpp/* linguist-vendored
-ios/Runner/Bridging-Header.h linguist-vendored
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.c++ linguist-detectable=false
+android/** linguist-vendored
+ios/** linguist-vendored
+CMakeLists.txt linguist-vendored
+
